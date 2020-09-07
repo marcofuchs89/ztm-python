@@ -1,6 +1,12 @@
 # pyCharm IDE Files
 .idea/
 
+# VSCode IDE Files
+.vscode/
+
+# macOS related files
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
