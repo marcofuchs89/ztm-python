@@ -24,3 +24,4 @@ class TestCalculator(TestCase):
     def test_toPower(self):
         self.calculator = Calculator()
         self.assertEqual(self.calculator.toPower(8, 2), 64)
+        self.assertEqual(self.calculator.toPower(2, 0), 1)
